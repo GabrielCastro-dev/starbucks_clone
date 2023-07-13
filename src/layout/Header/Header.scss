@@ -9,3 +9,21 @@ header{
 .nav-wraper img{
     width: 3.1rem;
 }
+
+.nav-wraper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-wraper nav ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-wraper nav ul li{
+    padding-left: 2.4rem;
+}
