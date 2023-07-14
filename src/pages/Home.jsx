@@ -6,6 +6,7 @@ import 'swiper/css';
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
 import banners from '../assets/banners/banners';
+import TextBox from '../components/TextBox/TextBox';
 
 function Home() {
   return (
@@ -28,6 +29,12 @@ function Home() {
           </SwiperSlide>
         )}
       </Swiper>
+
+      <TextBox 
+        text='Nossa missão é inspirar e nutrir o espírito humano – 
+        uma pessoa, uma xícara de café e uma comunidade de cada vez.'
+        buttonTxt='Saiba mais'
+      />
 
     </>
   );
