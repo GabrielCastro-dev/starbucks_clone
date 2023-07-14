@@ -25,3 +25,38 @@ button:hover{
   transform: scale(.90);
   box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2);
 }
+
+.mySwiper{
+  img{
+      width: 100%;
+  }
+
+  .swiper-button-next, .swiper-button-prev{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: $white;
+    border-radius: 30px;
+    transition: all .4s ease;
+    box-shadow: 0 0 6px rgb(0 0 0 / 24%), 0 8px 12px rgb(0 0 0 / 14%);
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    background-position: center;
+  }
+
+  .swiper-button-next::after , .swiper-button-prev::after{
+    display: none;
+  }
+
+  .swiper-button-next{
+    background-image: url('../assets/arrows/next.svg');
+  }
+
+  .swiper-button-prev{
+    background-image: url('../assets/arrows/prev.svg');
+  }
+
+  .swiper-pagination-bullet-active{
+    background: rgba(255,255,255,0.5);
+  }
+}
