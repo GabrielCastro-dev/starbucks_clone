@@ -6,6 +6,9 @@ import "swiper/css/navigation";
 import 'swiper/css/pagination';
 
 function Slider({ banners }) {
+    // The 'banners' prop should be an array
+    // containing all the images
+
     return (
         <Swiper
         spaceBetween={30}
