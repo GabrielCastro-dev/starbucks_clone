@@ -1,4 +1,4 @@
-# Starcubks Clone
+# Starbucks Clone
 
 ! Atenção !
 
