@@ -1,23 +1,10 @@
 @import '../../styles/colorPalette.scss';
 
-.text-box-background{
-    width: 100%;
-
-    .text-box{
-        width: 1440px;
-        height: 190px;
-        margin: 32px 0;
-        background-color: $greenishGray;
-
-        p{
-            margin-bottom: 32px;
-        }
-    }
-}
-
-.text-box-background, .text-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.text-box{
+    height: 190px;
     justify-content: center;
+
+    p{
+        margin-bottom: 32px;
+    }
 }

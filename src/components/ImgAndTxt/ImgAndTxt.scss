@@ -1,0 +1,13 @@
+.img-and-text{
+    display: flex;
+    align-items: center;
+
+    .text-container{
+        padding: 32px 48px;
+        text-align: center;
+
+        h3, p {
+            margin: 0 0 32px 0;
+        }
+    }
+}
