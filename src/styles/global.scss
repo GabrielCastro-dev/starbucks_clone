@@ -55,6 +55,11 @@ p{
   flex-direction: column;
   align-items: center;
   color: $darkGreen;
+  text-align: center;
+
+  h3, p {
+      margin: 0 0 32px 0;
+  }
 
   button {
     border-color: $darkGreen;

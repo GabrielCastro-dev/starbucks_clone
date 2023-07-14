@@ -4,7 +4,7 @@ import banners from '../assets/banners/banners';
 import Slider from '../components/Slider/Slider';
 import TextBox from '../components/TextBox/TextBox';
 import ImgAndTxt from '../components/ImgAndTxt/ImgAndTxt';
-import meal from '../assets/meal.png';
+import homeContent from '../data/homeContent';
 
 function Home() {
   return (
@@ -19,16 +19,16 @@ function Home() {
         buttonTxt='Saiba mais'
       />
 
-      <ImgAndTxt 
-        imgPlace='right'
-        img={meal}
-        alt='Produtos da linha Cinnamon Toffee'
-        title='Sua pausa mais saborosa!'
-        text='Você pode fazer seu pedido sem pegar filas, 
-        pedindo pelo aplicativo da Starbucks e retirando 
-        na sua loja preferida.'
-        btnTxt='Peça pelo app e retire na loja'
-      />
+      {homeContent.map((item) => 
+        <ImgAndTxt 
+          imgPlace={item.imgPlace}
+          img={item.img}
+          alt={item.alt}
+          title={item.title}
+          text={item.text}
+          btnTxt={item.btnTxt}
+        />
+      )}
 
     </>
   );
