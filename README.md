@@ -12,7 +12,7 @@ Esse projeto foi inicializado com [Create React App](https://github.com/facebook
 
 ## Scripts
 
-In the project directory, you can run:
+No diretório raiz do projeto você pode rodar:
 
 ### `npm start`
 
