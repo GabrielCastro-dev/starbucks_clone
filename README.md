@@ -8,7 +8,7 @@ Esse projeto foi inicializado com [Create React App](https://github.com/facebook
 
 ## Preview
 
-![starbucks_desktop_home](https://github.com/GabrielCastro-dev/starbucks_clone/assets/127990863/f2115740-b87c-44a1-b50d-f55f0b4aa624)
+![starbucks_desktop_home](https://github.com/GabrielCastro-dev/starbucks_clone/assets/127990863/e1ee1a46-89e2-4f4d-8c98-5db605b5aeaf)
 
 ## Scripts
 
