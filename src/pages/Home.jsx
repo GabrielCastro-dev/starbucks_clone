@@ -5,6 +5,7 @@ import Slider from '../components/Slider/Slider';
 import TextBox from '../components/TextBox/TextBox';
 import ImgAndTxt from '../components/ImgAndTxt/ImgAndTxt';
 import homeContent from '../data/homeContent';
+import Footer from '../layout/Footer/Footer';
 
 function Home() {
   return (
@@ -29,6 +30,8 @@ function Home() {
           btnTxt={item.btnTxt}
         />
       )}
+
+      <Footer />
 
     </>
   );
