@@ -15,7 +15,12 @@ function Footer() {
                 <FaYoutube className='social-media-icon' />
                 <FaTwitter className='social-media-icon' />
             </div>
-            <div className='footer-row'></div>
+            <div className='footer-row'>
+                <span id='privacy-politics' >Política de privacidade</span>
+                <span className='center-politics' >Política de troca de produto</span>
+                <span className='center-politics' >Termos de uso</span>
+                <span>Política de cookies</span>
+            </div>
         </footer>
     )
 }
