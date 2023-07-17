@@ -21,6 +21,9 @@ function Footer() {
                 <span className='center-politics' >Termos de uso</span>
                 <span id='last-span' >Política de cookies</span>
             </div>
+            <div className="footer-row">
+                <p id='rights' >Copyright ©2023 Starbucks Clone - Desenvolvido por Gabriel Castro</p>
+            </div>
         </footer>
     )
 }
