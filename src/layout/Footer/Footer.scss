@@ -7,6 +7,7 @@ footer{
 
     .footer-row{
         width: 100%;
+        margin: 25px 0;
     }
 
     hr {
@@ -36,6 +37,19 @@ footer{
 
     .center-politics{
         margin: 0 16px;
+    }
+
+    span::after{
+        content: '';
+        height: 100%;
+        margin-left: 16px;
+        background-color: #000;
+        border-right: 1px solid $black;
+    }
+
+    #last-span::after{
+        content: none;
+        display: none;
     }
 
     #privacy-politics{

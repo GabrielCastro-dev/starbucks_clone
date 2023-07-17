@@ -7,7 +7,7 @@ function Footer() {
         <footer>
             <div className='footer-row'></div>
             <hr />
-            <div className='footer-row'>
+            <div className='footer-row social'>
                 <SlSocialSpotify className='social-media-icon' id='first-social-icon' />
                 <FaFacebookF className='social-media-icon' />
                 <FaLinkedinIn className='social-media-icon' />
@@ -19,7 +19,7 @@ function Footer() {
                 <span id='privacy-politics' >Política de privacidade</span>
                 <span className='center-politics' >Política de troca de produto</span>
                 <span className='center-politics' >Termos de uso</span>
-                <span>Política de cookies</span>
+                <span id='last-span' >Política de cookies</span>
             </div>
         </footer>
     )
