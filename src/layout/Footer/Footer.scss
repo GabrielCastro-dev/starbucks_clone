@@ -29,31 +29,33 @@ footer{
         border-radius: 30px;
     }
 
-    span{
-        margin: 0 16px;
-        font-weight: 400;
-        font-size: 16px;
-    }
+    .politics {
+        span{
+            margin: 0 16px;
+            font-weight: 400;
+            font-size: 16px;
+        }
 
-    .center-politics{
-        margin: 0 16px;
-    }
-
-    span::after{
-        content: '';
-        height: 100%;
-        margin-left: 16px;
-        background-color: #000;
-        border-right: 1px solid $black;
-    }
-
-    #last-span::after{
-        content: none;
-        display: none;
-    }
-
-    #privacy-politics{
-        margin-left: 0;
+        .center-politics{
+            margin: 0 16px;
+        }
+    
+        span::after{
+            content: '';
+            height: 100%;
+            margin-left: 16px;
+            background-color: #000;
+            border-right: 1px solid $black;
+        }
+    
+        #last-span::after{
+            content: none;
+            display: none;
+        }
+    
+        #privacy-politics{
+            margin-left: 0;
+        }
     }
 
     #rights{

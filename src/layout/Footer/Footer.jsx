@@ -1,11 +1,16 @@
 import './Footer.scss';
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa6';
 import { SlSocialSpotify } from 'react-icons/sl';
+import FooterCol from '../FooterCol/FooterCol';
+import { about }  from '../../data/footerColContent';
 
 function Footer() {
     return (
         <footer>
-            <div className='footer-row'></div>
+            <div className='footer-row'>
+                <FooterCol  obj={about} />
+
+            </div>
             <hr />
             <div className='footer-row social'>
                 <SlSocialSpotify className='social-media-icon' id='first-social-icon' />
@@ -15,7 +20,7 @@ function Footer() {
                 <FaYoutube className='social-media-icon' />
                 <FaTwitter className='social-media-icon' />
             </div>
-            <div className='footer-row'>
+            <div className='footer-row politics'>
                 <span id='privacy-politics' >Política de privacidade</span>
                 <span className='center-politics' >Política de troca de produto</span>
                 <span className='center-politics' >Termos de uso</span>
