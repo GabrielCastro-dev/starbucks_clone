@@ -5,18 +5,19 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 16px;
+    font-size: 14px;
 
     .bold{
         margin-bottom: 24px;
         color: $black;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     span{
         margin-bottom: 8px;
         padding: 8px 0;
         color: $grey;
+        cursor: pointer;
     }
 }

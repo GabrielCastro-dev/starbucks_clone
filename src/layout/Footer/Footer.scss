@@ -10,6 +10,16 @@ footer{
         margin: 25px 0;
     }
 
+    .cols-section{
+        display: flex;
+
+        img{
+            width: 120px;
+            height: fit-content;
+        }
+        
+    }
+
     hr {
         color: #32312d;
         opacity: 0.2;
